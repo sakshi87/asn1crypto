@@ -9,12 +9,7 @@ matrix:
       arch: amd64
       dist: trusty
       language: python
-      python: "2.6"
-    - os: linux
-      arch: arm64
-      dist: trusty
-      language: python
-      python: "2.6"      
+      python: "2.6" 
     - os: linux
       arch: amd64
       dist: bionic
@@ -29,22 +24,12 @@ matrix:
       arch: amd64
       dist: trusty
       language: python
-      python: "3.2"
-    - os: linux
-      arch: arm64
-      dist: trusty
-      language: python
-      python: "3.2"      
+      python: "3.2"  
     - os: linux
       arch: amd64
       dist: trusty
       language: python
-      python: "3.3"
-    - os: linux
-      arch: arm64
-      dist: trusty
-      language: python
-      python: "3.3"      
+      python: "3.3"  
     - os: linux
       arch: amd64
       dist: bionic
@@ -60,11 +45,6 @@ matrix:
       dist: xenial
       language: python
       python: "pypy"
-    - os: linux
-      arch: arm64
-      dist: xenial
-      language: python
-      python: "pypy"      
 script:
   - python run.py deps
   - python run.py ci
