@@ -26,7 +26,17 @@ matrix:
       language: python
       python: "3.2"  
     - os: linux
+      arch: arm64
+      dist: trusty
+      language: python
+      python: "3.2"  
+    - os: linux
       arch: amd64
+      dist: trusty
+      language: python
+      python: "3.3"  
+    - os: linux
+      arch: arm64
       dist: trusty
       language: python
       python: "3.3"  
