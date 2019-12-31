@@ -45,6 +45,11 @@ matrix:
       dist: xenial
       language: python
       python: "pypy"
+    - os: linux
+      arch: arm64
+      dist: xenial
+      language: python
+      python: "pypy"
 script:
   - python run.py deps
   - python run.py ci
